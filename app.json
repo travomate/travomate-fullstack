@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "TravoMate app",
+    "slug": "TravoMate-app",
+    "description": "this app is still under construction, just in case some of functions are not working properly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/travomateLogOG.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/travoMate2splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "userInterfaceStyle": "automatic"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/travomateLogOG.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/travomateLogOG.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
